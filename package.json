@@ -8,7 +8,7 @@
     "clean": "rimraf lib",
     "babel": "babel src --out-dir lib --source-maps",
     "build": "npm run clean && npm run babel",
-    "next": "next",
+    "next": "npm run next:build & next start -p 3010",
     "next:export": "next export",
     "next:build": "next build",
     "next:start": "next start",
